@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Pytest
+.pytest_cache/
+**/.pytest_cache/
+
+# Experiment run logs (generated)
+**/test_runs.jsonl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Legacy numpy pipeline artifacts (not used by current calculator experiment)
+/data/
